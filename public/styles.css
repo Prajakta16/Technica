@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lato' , ubuntu;
+    font-weight: 300;
+    font-size: 16px;    
+}
+.content{
+    max-width: 80em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+
+}
+.subheading{
+    color: #e5474b;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Lora';
+}
+.sub-subheading{
+    color: #e5474b;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Lora';
+    padding-left: 30px;
+}
+.description{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.sub-description{
+    padding-left: 30px;
+}
+h1, h2, h3 {
+    font-family: 'lato', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0px;
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    font-size: .8em;
+    font-weight: 700;
+    height: 3.5em;
+    line-height: 3.65em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-transition: background-color 0.4s ease-out;
+    -moz-transition: background-color 0.4s ease-out;
+    -o-transition: background-color 0.4s ease-out;
+    transition: background-color 0.4s ease-out;
+    border: 2px solid #e5474b;
+    background-color: transparent;
+
+}
+button:hover{
+    background-color: rgba(229, 71, 75, .4);
+}
+.nav {
+    display: flex;
+	overflow:hidden;
+	padding-left: 2%;
+    margin:0;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-family: 'Lora';
+}
+.navbar a:hover {
+    color: #e5474b;
+}
+.footer{
+    padding-top: 70px;
+    padding-bottom:70px;
+    background-color:black;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+.authors{
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+/*
+Home
+*/
+.image{
+    padding: 18em 0 18em 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    position: relative;
+    z-index: 9999;
+    margin: 0 -8px 0 -8px; 
+    
+}
+.overlay{
+    position: absolute;
+    top: 50px;
+    right:0px;
+    left:0px;
+    text-align: center;
+    color:black;
+    font-size: 100px;
+    font-weight: 300;
+}
+.space.subheading{
+    padding-top: 30px;
+    font-size: 40px;
+}

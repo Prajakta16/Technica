@@ -1,0 +1,29 @@
+{
+  "name": "technica",
+  "version": "1.0.0",
+  "description": "Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prajakta16/Technica.git"
+  },
+  "keywords": [
+    "Housing",
+    "Resources"
+  ],
+  "author": "Chitali BugePrajakta Dharme, Jennifer Chen, Chitali Buge, Arshia Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prajakta16/Technica/issues"
+  },
+  "homepage": "https://github.com/Prajakta16/Technica#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6"
+  }
+}
