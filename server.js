@@ -1,6 +1,7 @@
 var express = require('express');
 var exphbs = require('express-handlebars');
 var messageData = require('./messages.json');
+var lawyerData = require('./lawyerData');
 var fs = require('fs');
 var bodyParser = require('body-parser');
 var app = express();
@@ -25,6 +26,14 @@ app.get('/lawyerchat', function (req, res) {
   });
   res.status(200);
 });
+
+app.get('/lawyers', function (req, res) {
+    res.render('lawyers', {
+        LData: lawyerData
+    });
+    res.status(200);
+});
+
 app.post('/chat/save', function(req, res){
   messageData.push(req.body)
   fs.writeFileSync('./messages.json', JSON.stringify(messageData));
