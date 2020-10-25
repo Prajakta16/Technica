@@ -14,7 +14,6 @@ function searchforLawyer(event){
     var searchVal = event.currentTarget.value.toLowerCase();
     var law =  document.getElementsByClassName('one-lawyer');
     for(var i = 0; i < law.length; i++){
-        console.log("called")
         var s = law[i].textContent.toLowerCase()
          if(s.search(searchVal) === -1 ){
              law[i].style.display = "none";
