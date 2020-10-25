@@ -13,7 +13,7 @@ The program can be run using the JAR file within the res/ folder in the zipped f
 3. Run npm start through command prompt
 4. The program should run successfully
 
-###PROBLEM STATEMENT
+### PROBLEM STATEMENT
 Create a solution to support low income or displaced families on finding and securing housing or other vital resources
 
 ### PROPOSED SOLUTION
@@ -28,12 +28,12 @@ The post can also take form of a donation for a displaced family wherein the oth
 We will also create a UI interface for the Lawyer where they can provide their availability, fees or pro bono, as well as their speciality.
 These are all the features our application will be extended into including general UI enhancements. 
 
-## ARCHITECTURE AND TECHNOLOGY STACK
+### ARCHITECTURE AND TECHNOLOGY STACK
 Code base: HTML, CSS, Bootstrap, Javascript, Handlebars
 Host environment: Heroku https://stormy-meadow-83551.herokuapp.com/
 
 
-## Referred datasets for filling up sample data
+#### Referred datasets for filling up sample data
 1. API service to fetch potential lawyers by text search http://avvo.github.io/api-doc/#avvo-api
 https://www.kaggle.com/PromptCloudHQ/doctor-and-lawyer-profiles-on-avvocom-
 
@@ -51,7 +51,7 @@ https://www.lowincomehousing.us/art/about
 
 
 
-##Referred resources for Zoom Integration
+#### Referred resources for Zoom Integration
 https://marketplace.zoom.us/docs/sdk/native-sdks/developer-accounts
 https://marketplace.zoom.us/docs/guides/build
 https://devforum.zoom.us/t/zoom-meeting-api-create-instant-meeting-with-ability-to-join-the-meeting-before-host/9507
