@@ -13,6 +13,7 @@ function searchforLawyer(event){
     document.getElementById("demo").innerHTML = "We got you some searches for lawyers who can help you with";
     var searchVal = event.currentTarget.value.toLowerCase();
     console.log(searchVal)
+    var law;
     // var lawyer = document.getElementsByClassName('lawyers');
     // lawyer[0].style.display = 'block';
 }
