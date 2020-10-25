@@ -1,0 +1,247 @@
+/* CSS for main page*/
+
+.body{
+    background-image: url("https://fthmb.tqn.com/kVpo4zFn-IRel7_g-hB3vXseD0A=/puresaltinteriors.-cb503015f1954be8ab6f750cda87a326.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#main-title{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Palatino";
+    padding: 35px;
+}
+
+#mission-description{
+    font-style: italic
+}
+
+
+.box-title{
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+#box-desc1{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 64;
+}
+
+#box-desc2{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 21;
+}
+
+#box-desc3{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 63;
+}
+
+#box-desc4{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 66;
+}
+
+#box-desc5{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 50;
+}
+
+#box-desc6{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 65;
+}
+
+#box-desc7{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 0;
+}
+
+#box1{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 330px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 330px; /*changed*/
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -80px;
+    left: 495px;
+}
+
+#box3{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 330px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -260px;
+    left: 890px;
+}
+
+#box4{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 180px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -240px;
+    left: 100px;
+}
+
+#box5{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 180px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -420px;
+    left: 495px;
+}
+
+#box6{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 180px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -600px;
+    left: 890px;
+}
+
+#settings-button1{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 14px;
+    align-items: right;
+    background-color: white;
+    border: none;
+    color: black;
+    left: 165px;
+}
+
+#settings-button2{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 14px;
+    align-items: right;
+    background-color: white;
+    border: none;
+    color: black;
+    left: 240px;
+}
+
+#settings-button3{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 14px;
+    align-items: right;
+    background-color: white;
+    border: none;
+    color: black;
+    left: 145px;
+}
+
+#settings-button4{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 14px;
+    align-items: right;
+    background-color: white;
+    border: none;
+    color: black;
+    left: 220px;
+}
+
+#settings-button5{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 14px;
+    align-items: right;
+    background-color: white;
+    border: none;
+    color: black;
+    left: 205px;
+}
+
+#settings-button6{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 14px;
+    align-items: right;
+    background-color: white;
+    border: none;
+    color: black;
+    left: 180px;
+}
+
+
