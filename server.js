@@ -38,6 +38,7 @@ app.get('/public_chat', function (req, res) {
 
 app.get('/lawyers', function (req, res) {
     res.render('lawyers', {
+        law: true,
         LData: lawyerData
     });
     res.status(200);

@@ -1,9 +1,25 @@
 function init(){
     var eachMes = document.getElementsByClassName('one-message');
     for(var i = 0; i < eachMes.length; i++){
-        console.log(eachMes[i]);
+        if(eachMes[i].childNodes[5].textContent == 2) {
+            console.log("called")
+            eachMes[i].style.backgroundColor = "#28a745";
+            eachMes[i].style.marginLeft = "20%";
+            eachMes[i].style.marginRight = "0%";
+            eachMes[i].childNodes[3].style.textAlign= "right";
         
+        }
+        else if(eachMes[i].childNodes[5].textContent == 3) {
+            eachMes[i].style.backgroundColor = "#dc3545";
+            eachMes[i].style.marginLeft = "20%";
+            eachMes[i].style.marginRight = "0%";
+            eachMes[i].childNodes[3].style.textAlign= "right";
+        }
     }
+    var offsetHeight = document.getElementById('newMes').offsetHeight;
+    console.log(offsetHeight);
+    var h = offsetHeight + "px"
+    document.getElementById('mes-container').style.marginBottom = h
 }
 
 var mes = document.getElementById('post')
@@ -39,11 +55,12 @@ function insertMessage(aut, tex, t){
     };
     var mesHtml = Handlebars.templates.message(newMessage);
     document.getElementById("mes-container").insertAdjacentHTML('beforeend', mesHtml);
+
     saveMessage(newMessage);
 }
 function saveMessage(newMessage){
     var request = new XMLHttpRequest();
-	var requestUrl = '/chat/save';
+	var requestUrl = '/public_chat/save';
 	request.open('POST', requestUrl);
 	var requestBody = JSON.stringify({
         text: newMessage.text,
@@ -55,6 +72,20 @@ function saveMessage(newMessage){
 		'application/json'
 	);
     request.send(requestBody);
+    var eachMes = document.getElementsByClassName('one-message');
+        if(eachMes[eachMes.length-1].childNodes[5].textContent == 2) {
+            eachMes[eachMes.length-1].style.backgroundColor = "#28a745";
+            eachMes[eachMes.length-1].style.marginLeft = "20%";
+            eachMes[eachMes.length-1].style.marginRight = "0%";
+            eachMes[eachMes.length-1].childNodes[3].style.textAlign= "right";
+        
+        }
+        else if(eachMes[eachMes.length-1].childNodes[5].textContent == 3) {
+            eachMes[eachMes.length-1].style.backgroundColor = "#dc3545";
+            eachMes[eachMes.length-1].style.marginLeft = "20%";
+            eachMes[eachMes.length-1].style.marginRight = "0%";
+            eachMes[eachMes.length-1].childNodes[3].style.textAlign= "right";
+        }
     clearFields();
 }
 

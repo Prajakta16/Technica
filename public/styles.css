@@ -444,10 +444,17 @@ button:hover{
 /*
 Messages
 */
+#mes-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
 .one-message{
-    background-color: #eee;
-    margin: 20px;
-    width: 80%;
+    color: white;
+    background-color:#007bff;
+    margin-bottom: 40px;
+    margin-right: 20%;
+    width: 100%;
     border-radius: 10px;
     padding: 12px;
 }
@@ -461,7 +468,8 @@ Messages
 }
 
 .author{
-   font-weight: 400; 
+    color:white;
+   font-weight: bold; 
 }
 
 #text-input{
@@ -473,7 +481,7 @@ Messages
     padding: 10px;
 	background-color: #eee;
     border: 1px solid #dadada;
-    height: 60px;
+    height: 100px;
 }
 #author-input{
     margin-bottom: 20px;
@@ -496,4 +504,14 @@ Messages
 }
 .choicel{
     color:black
+}
+#newMes{
+    background-color: white;
+    position: fixed;
+    right:30px;
+    left:30px;
+    bottom:0px;
+    padding: 20px;
+    margin-bottom: 0px;
+    
 }
