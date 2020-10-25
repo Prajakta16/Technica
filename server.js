@@ -26,7 +26,11 @@ app.get('/chat', function (req, res) {
   });
   res.status(200);
 });
-
+app.post('/chat/save', function(req, res){
+  messageData.push(req.body)
+  fs.writeFileSync('./messages.json', JSON.stringify(messageData));
+  res.status(200).send("Message successfully added");
+})
 app.get('/login', function (req, res) {
   res.render('login', {
   });
