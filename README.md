@@ -1,4 +1,4 @@
-# TECHNICA: LAW:GINGS
+# TECHNICA: Law.gings
 
 
 This project was created for the Technica 2020 Hackathon!!
