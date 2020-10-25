@@ -1,8 +1,8 @@
 function init(){
+    var eachMes = document.getElementsByClassName('one-message');
     for(var i = 0; i < eachMes.length; i++){
         console.log(eachMes[i]);
-        var eachMes = document.getElementsByClassName('one-message');
-
+        
     }
 }
 
