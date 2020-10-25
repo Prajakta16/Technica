@@ -472,10 +472,10 @@ Messages
 
 .one-lawyer{
     background-color: #eee;
-    margin: 20px;
-    width: 80%;
+    width:100%;
     border-radius: 10px;
     padding: 12px;
+    margin-left:-10px;
 }
 
 .author{
@@ -485,14 +485,15 @@ Messages
 
 #text-input{
     margin-bottom: 20px;
-    margin-top: 10px;    width: 100%;
+    margin-top: 10px;     
+    width: 100%;
     border-radius: 2px;
     border-color: #eee;
     border-style: solid;
     padding: 10px;
 	background-color: #eee;
     border: 1px solid #dadada;
-    height: 100px;
+    height: 80px;
 }
 #author-input{
     margin-bottom: 20px;
@@ -520,7 +521,8 @@ Messages
 }
 
 #search-input {
-    padding: 4px;
+    padding: 9px;
+    margin-right: 20px;
     width: 400px;
     font-size: 16px;
     background-color: #eee;
@@ -539,10 +541,18 @@ Messages
 #newMes{
     background-color: white;
     position: fixed;
-    right:30px;
-    left:30px;
+    right:00px;
+    left:0px;
     bottom:0px;
-    padding: 20px;
+    padding: 30px;
+    padding-right: 80px;
     margin-bottom: 0px;
-    
+}
+.search-bar{
+    text-align: center;
+    justify-content: center;
+}
+#post{
+   
+    float: right
 }
