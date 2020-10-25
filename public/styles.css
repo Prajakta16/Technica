@@ -1,10 +1,4 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family:'Lato' , ubuntu;
-    font-weight: 300;
-    font-size: 16px;    
-}
+
 .content{
     max-width: 80em;
     width: calc(100% - 6em);
@@ -40,28 +34,7 @@ h1, h2, h3 {
     text-align: center;
     margin-bottom: 20px;
 }
-button{
-    cursor: pointer;
-    font-size: .8em;
-    font-weight: 700;
-    height: 3.5em;
-    line-height: 3.65em;
-    padding: 0 2.25em;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
-    -webkit-transition: background-color 0.4s ease-out;
-    -moz-transition: background-color 0.4s ease-out;
-    -o-transition: background-color 0.4s ease-out;
-    transition: background-color 0.4s ease-out;
-    border: 2px solid #e5474b;
-    background-color: transparent;
 
-}
-button:hover{
-    background-color: rgba(229, 71, 75, .4);
-}
 .nav {
     display: flex;
 	overflow:hidden;
@@ -100,33 +73,358 @@ button:hover{
     line-height: 1.5;
 }
 /*
-Home
+Home: CSS for main page
 */
-.image{
-    padding: 18em 0 18em 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    position: relative;
-    z-index: 9999;
-    margin: 0 -8px 0 -8px; 
-    
-}
-.overlay{
-    position: absolute;
-    top: 50px;
-    right:0px;
-    left:0px;
+
+.box a{
+    font-size: 14px;
+    color: gray;
     text-align: center;
-    color:black;
-    font-size: 100px;
-    font-weight: 300;
 }
-.space.subheading{
-    padding-top: 30px;
-    font-size: 40px;
+
+.bodymain{
+    background-image: url("https://fthmb.tqn.com/kVpo4zFn-IRel7_g-hB3vXseD0A=/puresaltinteriors.-cb503015f1954be8ab6f750cda87a326.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
+#main-title{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Palatino";
+    padding: 35px;
+}
+
+#mission-description{
+    font-style: italic
+}
+
+
+.box-title{
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+#box-desc1{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 64;
+}
+
+#box-desc2{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 21;
+}
+
+#box-desc3{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 63;
+}
+
+#box-desc4{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 66;
+}
+
+#box-desc5{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 50;
+}
+
+#box-desc6{
+    position: relative;
+    font-family: 'aleo';
+    font-size: 25px;
+    font-size: 13px;
+    color: grey;
+    padding-top: 12;
+    padding-bottom: 65;
+}
+
+#box1{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 330px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 330px; /*changed*/
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -80px;
+    left: 495px;
+}
+
+#box3{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 330px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -260px;
+    left: 890px;
+}
+
+#box4{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 80px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -240px;
+    left: 100px;
+    text-align: center;
+    color: black;
+}
+
+#box5{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 80px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -320px;
+    left: 495px;
+    text-align: center;
+}
+
+#box6{
+    position: relative;
+    font-family: 'aleo';
+    width: 365px;
+    height: 80px;
+    border-width: 1;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: 	#D3D3D3;
+    background-color: white;
+    top: -400px;
+    left: 890px;
+    text-align: center;
+}
+
+.box-low a{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+/*login and register*/
+
+.col-sm-3{
+    color: black;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+
+}
+.home-page-title{
+    color: red;
+}
+
+.body{
+    background-image: url("https://i.pinimg.com/originals/4c/63/e9/4c63e9b28c8d9fecf850eeea461007db.jpg"); /*background for mini pages*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 60%;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+
+form{
+    /*margin: 10px;*/
+    padding: 20px;
+    padding-bottom: -10px;
+    border-style: double;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: #FAF0E6;
+}
+
+label{
+    color: beige;
+}
+
+input{
+    width: auto;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+button{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.col-sm-9{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+#main-header{
+    text-align: center;
+    /*background-color: #051146;*/
+    color: grey;
+    padding: 10px;
+    font-family: "Times New Roman";
+    margin-bottom: 20px;
+}
+
+.profile-login{
+    font-family: "Times New Roman";  
+    font-size: 50px; 
+}
+#home-navigation{
+    color: black;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    padding: 25px;
+}
+
+/* Lawyer Chat */
+
+#lawyer-chat-body {
+    background-image: url("https://nonagon.style/wp-content/uploads/2018/01/NONAGON-style-n9s-indoor-house-plant-green-garden-white-eco.jpg");
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 8px;
+    opacity: 0.9;
+    color: #ffffff;
+  }
+  
+  ul {
+    background-color: #434343;
+    color: #f0f0f0;
+    font-family: 'courier', Arial, sans-serif;
+    margin: 10px auto;
+    list-style: none;
+    padding-right: 10px auto;
+    padding-top: 10px;
+    line-height: 1.6;
+    overflow-x:hidden;
+    overflow-y:visible;
+    height:430px;
+  }
+  
+  li {
+    padding-right: 20px auto;
+    padding-left: -60px auto;
+  }
+  
+  li:nth-child(odd){
+    color: #A4A4A4;
+  }
+  
+  ol {
+    background-color: #434343;
+    color: #f0f0f0;
+    font-family: 'courier', Arial, sans-serif;
+    margin: 00px auto;
+    list-style: none;
+  }
+  
+  #lily-smith {
+    margin: 0px auto;
+    text-align: center;
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+  
+  #lawyer-form {
+    background-color: #434343;
+    opacity: 1;
+    border: none;
+  }
+  
+  .message {
+    opacity: 1;
+    width: 85%;
+    font-family: 'courier', Arial;
+  }
+  
+  .history {
+    height: 200px;
+  }
+
+  #send{
+      color: black;
+      background-color: black;
+      border: white;
+      color: white;
+      padding: 5px;
+      display: inline-block;
+      font-size: 16px;
+      font-family: 'courier', Arial;
+      border-radius: 5px;
+  }
+  
+
 /*
 Messages
 */
