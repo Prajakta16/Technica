@@ -20,9 +20,8 @@ app.get(['/home', '/'], function (req, res) {
   res.status(200);
 });
 
-app.get('/chat', function (req, res) {
-  res.render('chat', {
-		MData: messageData
+app.get('/lawyerchat', function (req, res) {
+  res.render('lawyerchat', {
   });
   res.status(200);
 });
@@ -33,6 +32,18 @@ app.post('/chat/save', function(req, res){
 })
 app.get('/login', function (req, res) {
   res.render('login', {
+  });
+  res.status(200);
+});
+
+app.get('/register', function (req, res) {
+  res.render('register', {
+  });
+  res.status(200);
+});
+
+app.get('/profile', function (req, res) {
+  res.render('profile', {
   });
   res.status(200);
 });
