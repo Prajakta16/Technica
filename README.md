@@ -2,7 +2,7 @@
 
 
 This project was created for the Technica 2020 Hackathon!!
-The project can be accessed a thttps://stormy-meadow-83551.herokuapp.com.
+The project can be accessed at https://stormy-meadow-83551.herokuapp.com.
 The objective of the project is to make a tool for collaboration between pro bono lawyers, student lawyers as well as tenants/houseless who have been facing housing inequality. We provide features to enable tenants to chat or video call with a specific lawyer belonging to a specific category. Tenants also have a discussion forum where they can discuss common topics related to housing inequality and potential solutions. 
 
 ### HOW TO USE
