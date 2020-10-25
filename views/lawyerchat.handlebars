@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="../public/styles.css">
-<h1 id = "lily-smith">You are now speaking to: <b>Lily Smith</b></h1>
+<h1 id="lily-smith">You are now speaking to: <b>Lily Smith</b></h1>
 <title>Chat Room</title>
 
-<body id = "lawyer-chat-body">
-  <div >
-    <ul id="history">
-    
-      <li><b>Lily: </b>Hi Jennifer. How can I help you today?</li>
-      <li>Jennifer: Hello Lily! I am seeking legal advice following recent events regarding my housing situation.</li>
-    </ul>
-  </div>
-  <ol>
-    <form id = "lawyer-form">
-      <input id="message" class="message" placeholder="Message">
-      <button id = "send"> Send</button>
-    </form>
-  </ol>
-</body>
-<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-<script src="/socket.io/socket.io.js"></script>
-<script src="lawyerchat.js"></script>
+<body class="bodymain">
+
+  <body id="lawyer-chat-body">
+    <div>
+      <ul id="history">
+
+        <li><b>Lily: </b>Hi Jennifer. How can I help you today?</li>
+        <li>Jennifer: Hello Lily! I am seeking legal advice following recent events regarding my housing situation.</li>
+      </ul>
+    </div>
+    <ol>
+      <form id="lawyer-form">
+        <input id="message" class="message" placeholder="Message">
+        <button id="send"> Send</button>
+      </form>
+    </ol>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="lawyerchat.js"></script>

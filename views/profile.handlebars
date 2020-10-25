@@ -4,82 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          rel="stylesheet"/>
-    <link href="../public/styles.css" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../public/styles.css" rel="stylesheet" />
 </head>
 
-<body class="body">
-<div class="container">
-    <hr>
-    <header id="main-header">
-        <h1 class = "profile-login">Profile</h1>
-    </header>
+<body class="bodymain">
+    <div class="container">
+        <hr>
+        <header id="main-header">
+            <h1 class="profile-login">Profile</h1>
+        </header>
 
-    <form class = "entry-form">
-        <div class="form-group row">
-            <label for= "username" class="col-sm-3 col-form-label"> Username </label>
-            <div class="col-sm-9">
-                <input class="form-control wbdv-field wbdv-phone"
-                       id="username" type = "text" name="password" placeholder="johndoe101">
+        <form class="entry-form">
+            <div class="form-group row">
+                <label for="username" class="col-sm-3 col-form-label"> Username </label>
+                <div class="col-sm-9">
+                    <input class="form-control wbdv-field wbdv-phone" id="username" type="text" name="password"
+                        placeholder="johndoe101">
+                </div>
             </div>
-        </div>
 
-        <div class="form-group row">
-            <label for="phone" class="col-sm-3 col-form-label"> Phone </label>
-            <div class="col-sm-9">
-                <input class="form-control wbdv-field wbdv-phone"
-                       id="phone" type="text" name="phone" placeholder="(617)-123-1234">
+            <div class="form-group row">
+                <label for="phone" class="col-sm-3 col-form-label"> Phone </label>
+                <div class="col-sm-9">
+                    <input class="form-control wbdv-field wbdv-phone" id="phone" type="text" name="phone"
+                        placeholder="(617)-123-1234">
+                </div>
             </div>
-        </div>
 
-        <div class="form-group row">
-            <label for="email" class="col-sm-3 col-form-label"> Email </label>
-            <div class="col-sm-9">
-                <input class="form-control wbdv-field wbdv-email"
-                       id="email" type="email" name="email" placeholder="johndoe@gmail.com">
+            <div class="form-group row">
+                <label for="email" class="col-sm-3 col-form-label"> Email </label>
+                <div class="col-sm-9">
+                    <input class="form-control wbdv-field wbdv-email" id="email" type="email" name="email"
+                        placeholder="johndoe@gmail.com">
+                </div>
             </div>
-        </div>
 
-        <div class="form-group row">
-            <label for="role" class="col-sm-3 col-form-label"> Joining As</label>
-            <div class="col-sm-9">
-                <select name="role" id="role" class="wbdv-field wbdv-role form-control">
-                    <option value="Potential Tenant">Tenant</option>
-                    <option value="Law Student">Law Student</option>
-                    <option value="Certified Lawyer">Certified Lawyer</option>
-                </select>
+            <div class="form-group row">
+                <label for="role" class="col-sm-3 col-form-label"> Joining As</label>
+                <div class="col-sm-9">
+                    <select name="role" id="role" class="wbdv-field wbdv-role form-control">
+                        <option value="Potential Tenant">Tenant</option>
+                        <option value="Law Student">Law Student</option>
+                        <option value="Certified Lawyer">Certified Lawyer</option>
+                    </select>
+                </div>
             </div>
-        </div>
 
-        <div class="form-group row">
-            <label for="dob" class="col-sm-3 col-form-label"> Description </label>
-            <div class="col-sm-9">
-                <input class="form-control wbdv-field wbdv-email"
-                       id="dob" name="dateOfBirth" placeholder="Let us know who you are and what you are looking for!">
+            <div class="form-group row">
+                <label for="dob" class="col-sm-3 col-form-label"> Description </label>
+                <div class="col-sm-9">
+                    <input class="form-control wbdv-field wbdv-email" id="dob" name="dateOfBirth"
+                        placeholder="Let us know who you are and what you are looking for!">
+                </div>
             </div>
-        </div>
 
-        <div class="form-group row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-9">
-                <button id="updateBtn" class="btn btn-success btn-block wbdv-update" 
-                    formaction="/lawyerchat">Save
-                </button>
+            <div class="form-group row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <button id="updateBtn" class="btn btn-success btn-block wbdv-update" formaction="/lawyerchat">Save
+                    </button>
+                </div>
             </div>
-        </div>
 
-        <div class="form-group row ">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-9">
-                <button  id="logoutBtn" class="btn btn-danger btn-block wbdv-logout" formaction="/home">
-                    Log Out
-                </button>
+            <div class="form-group row ">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <button id="logoutBtn" class="btn btn-danger btn-block wbdv-logout" formaction="/home">
+                        Log Out
+                    </button>
+                </div>
             </div>
-        </div>
 
-    </form>
-</div>
+        </form>
+    </div>
 
 </body>
+
 </html>
