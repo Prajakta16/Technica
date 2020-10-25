@@ -25,11 +25,22 @@ app.get('/lawyerchat', function (req, res) {
   });
   res.status(200);
 });
-app.post('/chat/save', function(req, res){
+
+app.get('/public_chat', function (req, res) {
+  
+  res.render('chat', {
+    chat: true,
+    MData: messageData
+  });
+  res.status(200);
+});
+
+app.post('/public_chat/save', function(req, res){
   messageData.push(req.body)
   fs.writeFileSync('./messages.json', JSON.stringify(messageData));
   res.status(200).send("Message successfully added");
 })
+
 app.get('/login', function (req, res) {
   res.render('login', {
   });

@@ -6,8 +6,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">         
         <link rel="stylesheet" href="styles.css" media="screen">
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js"></script>
+        {{#if chat}}
         <script src="/messageTemplate.js"></script>
         <script src="script.js" defer></script>
+        {{/if}}
+        
         <title>  LAW.GINGS </title>
     </head>
     <body>
@@ -17,7 +20,7 @@
           <div class="navbar"><a href="/home">About Us</a></div>
           <div class="navbar"><a href="/register">Contact Us</a></div>
           <div class="navbar"><a href="/lawyerchat">Private Messaging</a></div>
-          <div class="navbar"><a href="/lawyerchat">Community Chat</a></div>
+          <div class="navbar"><a href="/public_chat">Community Chat</a></div>
           <div class="navbar"><a href="/profile">Login/Profile</a></div>
         </div> 
         {{{body}}}
