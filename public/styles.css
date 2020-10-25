@@ -478,3 +478,22 @@ Messages
     color: red;
     padding: 7px;
 }
+
+.lawyers {
+    width:400px;
+    height:400px;
+}
+
+#search-input {
+    padding: 4px;
+    width: 400px;
+    font-size: 16px;
+    background-color: #eee;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+}
+
+#search-input:focus {
+    outline: none;
+    background-color: #fff;
+}
