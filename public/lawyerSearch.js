@@ -12,8 +12,15 @@ searchdrawing.addEventListener('input', searchforLawyer);
 function searchforLawyer(event){
     document.getElementById("demo").innerHTML = "We got you some searches for lawyers who can help you with";
     var searchVal = event.currentTarget.value.toLowerCase();
-    console.log(searchVal)
-    var law;
-    // var lawyer = document.getElementsByClassName('lawyers');
-    // lawyer[0].style.display = 'block';
+    var law =  document.getElementsByClassName('one-lawyer');
+    for(var i = 0; i < law.length; i++){
+        console.log("called")
+        var s = law[i].textContent.toLowerCase()
+         if(s.search(searchVal) === -1 ){
+             law[i].style.display = "none";
+         }
+         else{
+            law[i].style.display = 'block'
+         }
+    }
 }

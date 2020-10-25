@@ -2,7 +2,6 @@ function init(){
     var eachMes = document.getElementsByClassName('one-message');
     for(var i = 0; i < eachMes.length; i++){
         if(eachMes[i].childNodes[5].textContent == 2) {
-            console.log("called")
             eachMes[i].style.backgroundColor = "#28a745";
             eachMes[i].style.marginLeft = "20%";
             eachMes[i].style.marginRight = "0%";
@@ -17,7 +16,6 @@ function init(){
         }
     }
     var offsetHeight = document.getElementById('newMes').offsetHeight;
-    console.log(offsetHeight);
     var h = offsetHeight + "px"
     document.getElementById('mes-container').style.marginBottom = h
 }
@@ -27,16 +25,13 @@ mes.addEventListener('click', checkInput)
 init();
 
 function checkInput(event){
-console.log("pressed")
     var aut = document.getElementById('author-input').value
     var text = document.getElementById('text-input').value
     var type = document.getElementsByName('type')
     if((aut.split(" ").join("").length == 0) || text.split(" ").join("").length == 0 || (type[0].checked == false && type[1].checked == false && type[2].checked == false)){
-        console.log("called")
         document.getElementById("warning").style.display = "block";
     }
     else{
-        console.log("called1")
         document.getElementById("warning").style.display = "none";
         var t
         if(type[0].checked == true) t = 1
@@ -47,7 +42,6 @@ console.log("pressed")
 
 }
 function insertMessage(aut, tex, t){
-    console.log("called")
     var newMessage = {
         text: tex,
         author: aut,
