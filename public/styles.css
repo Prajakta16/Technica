@@ -330,11 +330,13 @@ button{
     -moz-transition: background-color 0.4s ease-out;
     -o-transition: background-color 0.4s ease-out;
     transition: background-color 0.4s ease-out;
-    border: 2px solid #ccb1b2;
+    border: 2px solid #b9b9b9;
     background-color: transparent;
 
 }
-
+button:hover{
+    background-color: #8f8d8d;
+}
 .col-sm-9{
     display: flex;
     flex-direction: row;
