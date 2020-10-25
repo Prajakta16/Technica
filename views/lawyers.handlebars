@@ -1,6 +1,20 @@
 <h1> Lawyers </h1>
+
+<div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search Lawyer by name...">
+    <button type="button" class="btn-primary" id="search-button" onclick="searchLawyer()"> Search </button>
+    <p id="demo"></p>
+</div>
+
  <div class='content'>
     {{#each LData}}
 {{> lawyer}}
 {{/each}}
  </div>
+
+
+ <script>
+       function searchLawyer(event) {
+         document.getElementById("demo").innerHTML = "We got you some searches for lawyers who can help you";
+       }
+ </script>
