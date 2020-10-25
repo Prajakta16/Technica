@@ -449,6 +449,15 @@ Messages
     border-radius: 10px;
     padding: 12px;
 }
+
+.one-lawyer{
+    background-color: #eee;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 12px;
+}
+
 .author{
    font-weight: 400; 
 }
