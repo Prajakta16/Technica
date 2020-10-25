@@ -1,6 +1,6 @@
 var express = require('express');
 var exphbs = require('express-handlebars');
-var allMessages = require('./messages.json');
+var messageData = require('./messages.json');
 var fs = require('fs');
 var bodyParser = require('body-parser');
 var app = express();
@@ -13,15 +13,24 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(bodyParser.json());
 
+
 app.get(['/home', '/'], function (req, res) {
+  res.render('home', {
+  });
+  res.status(200);
 });
 
 app.get('/chat', function (req, res) {
-  allMessages.push(req.body)
-  fs.writeFileSync('./messages.json', JSON.stringify(allMessages));
-  res.status(200).render('chat', {
-    MData: allMessages,
+  res.render('chat', {
+		MData: messageData
   });
+  res.status(200);
+});
+
+app.get('/login', function (req, res) {
+  res.render('login', {
+  });
+  res.status(200);
 });
 
 app.get('*', function (req, res) {

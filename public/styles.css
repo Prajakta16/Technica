@@ -131,11 +131,12 @@ Home
 Messages
 */
 .one-message{
-    
+    background-color: #eee;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 12px;
 }
-.description{
-
-}
-.class{
-
+.author{
+   font-weight: 400; 
 }
