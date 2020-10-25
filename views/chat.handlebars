@@ -1,30 +1,33 @@
 <h1> Messages </h1>
-<div class='content'>
-  <div id= "mes-container">
-    {{#each MData}}
+
+<body class="bodymain">
+  <div class='content'>
+    <div id="mes-container">
+      {{#each MData}}
       {{> message}}
-    {{/each}}
-  </div>
-  <div id = 'newMes'>
-    <div> Name</div>
-    <input type="text" id="author-input">
-    <div> Message </div>  
-    <textarea id="text-input"></textarea>
-    <div class = "multiple-choice">
-      <div>
-      <input class = "choice" type="radio" name="type" value= 1>
-      <label class = "choicel">Tenant</label><br>
-      </div>
-      <div>
-      <input class = "choice" type="radio" name="type" value= 2>
-      <label class = "choicel"> Law Student </label><br>
-      </div>
-      <div>  
-      <input class = "choice" type="radio" name="type" value= 3>
-      <label class = "choicel"> Lawyer</label><br><br>
-      </div>
+      {{/each}}
     </div>
-    <button id = "post"> Post </button>
-    <div id="warning" hidden> Please Fill Out All Fields</div>
+    <div id='newMes'>
+      <div> Name</div>
+      <input type="text" id="author-input">
+      <div> Message </div>
+      <textarea id="text-input"></textarea>
+      <div class="multiple-choice">
+        <div>
+          <input class="choice" type="radio" name="type" value=1>
+          <label class="choicel">Tenant</label><br>
+        </div>
+        <div>
+          <input class="choice" type="radio" name="type" value=2>
+          <label class="choicel"> Law Student </label><br>
+        </div>
+        <div>
+          <input class="choice" type="radio" name="type" value=3>
+          <label class="choicel"> Lawyer</label><br><br>
+        </div>
+      </div>
+      <button id="post"> Post </button>
+      <div id="warning" hidden> Please Fill Out All Fields</div>
+</body>
 </div>
 </div>

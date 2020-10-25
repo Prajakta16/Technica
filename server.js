@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var port = process.env.PORT || 3000;
 
-app.engine('handlebars', exphbs({defaultLayout:'main'}));
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 app.use(express.static('public'));
@@ -28,7 +28,7 @@ app.get('/lawyerchat', function (req, res) {
 });
 
 app.get('/public_chat', function (req, res) {
-  
+
   res.render('chat', {
     chat: true,
     MData: messageData
@@ -37,14 +37,20 @@ app.get('/public_chat', function (req, res) {
 });
 
 app.get('/lawyers', function (req, res) {
-    res.render('lawyers', {
-        law: true,
-        LData: lawyerData
-    });
-    res.status(200);
+  res.render('lawyers', {
+    law: true,
+    LData: lawyerData
+  });
+  res.status(200);
 });
 
-app.post('/public_chat/save', function(req, res){
+app.get(['/contact', '/'], function (req, res) {
+  res.render('contact', {
+  });
+  res.status(200);
+});
+
+app.post('/public_chat/save', function (req, res) {
   messageData.push(req.body)
   fs.writeFileSync('./messages.json', JSON.stringify(messageData));
   res.status(200).send("Message successfully added");
@@ -69,11 +75,11 @@ app.get('/profile', function (req, res) {
 });
 
 app.get('*', function (req, res) {
-    res.render('404');
-    res.status(404);
-  
-  });
+  res.render('404');
+  res.status(404);
+
+});
 
 app.listen(port, function () {
-    console.log("== Server is listening on port", port);
+  console.log("== Server is listening on port", port);
 });

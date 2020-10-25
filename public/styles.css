@@ -8,13 +8,13 @@
     color: #e5474b;
     font-weight: 400;
     font-size: 30px;
-    font-family: 'Lato';
+    font-family: 'Antic Slab';
 }
 .sub-subheading{
     color: #e5474b;
     font-weight: 400;
     font-size: 25px;
-    font-family: 'lato';
+    font-family: 'Antic Slab';
     padding-left: 30px;
 }
 .description{
@@ -25,7 +25,7 @@
     padding-left: 30px;
 }
 h1, h2, h3 {
-    font-family: 'lato', sans-serif;
+    font-family: 'Antic Slab', sans-serif;
     font-size: 50px;
     font-weight: 300;
     margin: 0px;
@@ -51,7 +51,7 @@ h1, h2, h3 {
     text-decoration: none;
     color: black;
     margin-right: 10px;
-    font-family: 'lato';
+    font-family: 'Antic Slab';
 }
 .navbar a:hover {
     color: #e5474b;
@@ -90,7 +90,7 @@ Home: CSS for main page
     color: black;
     text-align: center;
     font-size: 70px;
-    font-family: "Palatino";
+    font-family: "Antic Slab";
     padding: 35px;
 }
 
@@ -107,7 +107,7 @@ Home: CSS for main page
 
 #box-desc1{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     font-size: 25px;
     font-size: 13px;
     color: grey;
@@ -117,7 +117,7 @@ Home: CSS for main page
 
 #box-desc2{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     font-size: 25px;
     font-size: 13px;
     color: grey;
@@ -127,7 +127,7 @@ Home: CSS for main page
 
 #box-desc3{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     font-size: 25px;
     font-size: 13px;
     color: grey;
@@ -137,7 +137,7 @@ Home: CSS for main page
 
 #box-desc4{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     font-size: 25px;
     font-size: 13px;
     color: grey;
@@ -147,7 +147,7 @@ Home: CSS for main page
 
 #box-desc5{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     font-size: 25px;
     font-size: 13px;
     color: grey;
@@ -157,7 +157,7 @@ Home: CSS for main page
 
 #box-desc6{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     font-size: 25px;
     font-size: 13px;
     color: grey;
@@ -167,7 +167,7 @@ Home: CSS for main page
 
 #box1{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     width: 365px;
     height: 330px;
     border-width: 1;
@@ -181,7 +181,7 @@ Home: CSS for main page
 
 #box2{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     width: 365px;
     height: 330px; /*changed*/
     border-width: 1;
@@ -195,7 +195,7 @@ Home: CSS for main page
 
 #box3{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     width: 365px;
     height: 330px;
     border-width: 1;
@@ -209,7 +209,7 @@ Home: CSS for main page
 
 #box4{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     width: 365px;
     height: 80px;
     border-width: 1;
@@ -225,7 +225,7 @@ Home: CSS for main page
 
 #box5{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     width: 365px;
     height: 80px;
     border-width: 1;
@@ -240,7 +240,7 @@ Home: CSS for main page
 
 #box6{
     position: relative;
-    font-family: 'aleo';
+    font-family: 'Antic Slab';
     width: 365px;
     height: 80px;
     border-width: 1;
@@ -263,7 +263,7 @@ Home: CSS for main page
 
 .col-sm-3{
     color: black;
-    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-family: 'Antic Slab', Georgia, "Times New Roman", Times, serif;
 
 }
 .home-page-title{
@@ -300,7 +300,7 @@ form{
     border-width: 1px;
     border-color: gray;
     border-radius: 10px;
-    background-color: #FAF0E6;
+    background-color: white;
 }
 
 label{
@@ -334,6 +334,17 @@ button{
     background-color: transparent;
 
 }
+
+.zoom {
+    text-decoration: none; 
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1.00em 0;
+    background-color: white;
+}
+
 button:hover{
     background-color: #8f8d8d;
 }
@@ -348,17 +359,17 @@ button:hover{
     /*background-color: #051146;*/
     color: grey;
     padding: 10px;
-    font-family: "Times New Roman";
+    font-family: "Antic Slab";
     margin-bottom: 20px;
 }
 
 .profile-login{
-    font-family: "Times New Roman";  
+    font-family: "Antic Slab";  
     font-size: 50px; 
 }
 #home-navigation{
     color: black;
-    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-family: 'Antic Slab', Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
     padding: 25px;
 }
@@ -377,7 +388,7 @@ button:hover{
   ul {
     background-color: #434343;
     color: #f0f0f0;
-    font-family: 'courier', Arial, sans-serif;
+    font-family: 'Antic Slab', Arial, sans-serif;
     margin: 10px auto;
     list-style: none;
     padding-right: 10px auto;
@@ -400,7 +411,7 @@ button:hover{
   ol {
     background-color: #434343;
     color: #f0f0f0;
-    font-family: 'courier', Arial, sans-serif;
+    font-family: 'Antic Slab', Arial, sans-serif;
     margin: 00px auto;
     list-style: none;
   }
@@ -409,7 +420,7 @@ button:hover{
     margin: 0px auto;
     text-align: center;
     color: black;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Antic Slab", Monaco, monospace;
   }
   
   #lawyer-form {
@@ -421,7 +432,7 @@ button:hover{
   .message {
     opacity: 1;
     width: 85%;
-    font-family: 'courier', Arial;
+    font-family: 'Antic Slab', Arial;
   }
   
   .history {
@@ -436,7 +447,7 @@ button:hover{
       padding: 5px;
       display: inline-block;
       font-size: 16px;
-      font-family: 'courier', Arial;
+      font-family: 'Antic Slab', Arial;
       border-radius: 5px;
   }
   
