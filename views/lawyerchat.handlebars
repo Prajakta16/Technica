@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="../public/styles.css">
-<h1 id="lily-smith">You are now speaking to: <b>Lily Smith</b></h1>
-<title>Chat Room</title>
+<html lang="en">
 
-<body class="bodymain">
+<head>
+    <meta charset="UTF-8">
+    <title>Lawyer Chat Room</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../public/styles.css" rel="stylesheet" />
+</head>
 
-  <body id="lawyer-chat-body">
+<body class="bodymain" id="lawyer-chat-body">
+  <h1 id="lily-smith">You are now speaking to: <b>Lily Smith</b></h1>
     <div>
       <ul id="history">
 
@@ -19,7 +23,8 @@
         <button id="send"> Send</button>
       </form>
     </ol>
-  </body>
   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script src="lawyerchat.js"></script>
+</body>
+</html>
