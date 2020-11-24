@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js"></script>
+    {{#if chat}}
+    <script src="/messageTemplate.js"></script>
+    <script src="script.js" defer></script>
+    {{/if}}
+    {{#if law}}
+    <script src="lawyerSearch.js" defer></script>
+    {{/if}}
+
+    <title> LAW.GINGS </title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navbar"> </div>
+        <div class="navbar"><a href="/home">Home</a></div>
+        <div class="navbar"><a href="/register">Register</a></div>
+        <div class="navbar"><a href="/lawyerchat">Private Messaging</a></div>
+        <div class="navbar"><a href="/public_chat">Community Chat</a></div>
+        <div class="navbar"><a href="/lawyers">Find A Lawyer</a></div>
+        <div class="navbar"><a href="/contact">Zoom Consulting</a></div>
+        <div class="navbar"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfPVATV8EmT3n5-0WThTEEaNdaH9D1YadmpnMCX2UuR2ZIXmA/viewform?usp=sf_link">Contact Us</a></div>
+        <div class="navbar"><a href="/profile">Login/Profile</a></div>
+    </div>
+    {{{body}}}
+
+    </body>
+
+</html>
