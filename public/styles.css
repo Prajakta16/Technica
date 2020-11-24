@@ -10,13 +10,7 @@
     font-size: 30px;
     font-family: 'Antic Slab';
 }
-.sub-subheading{
-    color: #e5474b;
-    font-weight: 400;
-    font-size: 25px;
-    font-family: 'Antic Slab';
-    padding-left: 30px;
-}
+
 .description{
     line-height: 1.5;
     margin-bottom: 10px;
@@ -35,40 +29,31 @@ h1, h2, h3 {
 }
 
 .nav {
+    background-color: white;
     display: flex;
 	overflow:hidden;
-	padding-left: 2%;
+    padding-left: 10px;
     margin:0;
     margin-left: -10px;
     margin-right: -10px;
-
 }
 .navbar a {
     float: left;
     font-size: 16px;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 20px;
+    padding-left: 36px;
     text-decoration: none;
     color: black;
     margin-right: 10px;
     font-family: 'Antic Slab';
 }
 .navbar a:hover {
-    color: #e5474b;
+    color: #835c5c;
 }
-.footer{
-    padding-top: 70px;
-    padding-bottom:70px;
-    background-color:black;
-    margin-top: 40px;
-    color: white;
-    text-align: center;
-    font-size: 30px;
 
-}
 .authors{
-    font-size: 20px;
-    margin-top: 15px;
+    font-size: 17px;
     line-height: 1.5;
 }
 /*
@@ -85,13 +70,15 @@ Home: CSS for main page
     background-image: url("https://fthmb.tqn.com/kVpo4zFn-IRel7_g-hB3vXseD0A=/puresaltinteriors.-cb503015f1954be8ab6f750cda87a326.jpg");
     background-attachment: fixed;
     background-size: cover;
+    margin: 0px;
 }
 #main-title{
     color: black;
     text-align: center;
     font-size: 70px;
     font-family: "Antic Slab";
-    padding: 35px;
+    padding-top: 35px;
+    padding-bottom: 60px;
 }
 
 #mission-description{
@@ -104,11 +91,38 @@ Home: CSS for main page
     font-family: "Courier";
 }
 
+.floating-box{
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-family: "Courier";
+}
+
+#floating-box1{
+    position: absolute;
+    top: 735px;
+    left: 500px;
+    width: 750px;
+}
+
+#floating-box2{
+    position: absolute;
+    top: 1280px;
+    left: 100px;
+    width: 750px;
+}
+
 
 .box-title{
     font-size: 25px;
+    font-weight: bold;
+    font-family: "Antic Slab";
     padding: 15px;
     text-align: center;
+    color: #8C756A;
 }
 
 #box-desc1{
@@ -117,8 +131,7 @@ Home: CSS for main page
     font-size: 25px;
     font-size: 15px;
     color: grey;
-    padding-top: 12;
-    padding-bottom: 64;
+    padding-top: 10px;
 }
 
 #box-desc2{
@@ -127,8 +140,7 @@ Home: CSS for main page
     font-size: 25px;
     font-size: 15px;
     color: grey;
-    padding-top: 12;
-    padding-bottom: 21;
+    padding-top: 10px;
 }
 
 #box-desc3{
@@ -137,8 +149,7 @@ Home: CSS for main page
     font-size: 25px;
     font-size: 15px;
     color: grey;
-    padding-top: 12;
-    padding-bottom: 63;
+    padding-top: 10px;
 }
 
 #box-desc4{
@@ -147,8 +158,6 @@ Home: CSS for main page
     font-size: 25px;
     font-size: 15px;
     color: grey;
-    padding-top: 12;
-    padding-bottom: 66;
 }
 
 #box-desc5{
@@ -175,7 +184,7 @@ Home: CSS for main page
     position: relative;
     font-family: 'Antic Slab';
     width: 365px;
-    height: 330px;
+    height: 350px;
     border-width: 1;
     border-radius: 0px;
     border-style: solid;
@@ -189,7 +198,7 @@ Home: CSS for main page
     position: relative;
     font-family: 'Antic Slab';
     width: 365px;
-    height: 330px; /*changed*/
+    height: 335px; /*changed*/
     border-width: 1;
     border-radius: 0px;
     border-style: solid;
@@ -203,7 +212,7 @@ Home: CSS for main page
     position: relative;
     font-family: 'Antic Slab';
     width: 365px;
-    height: 330px;
+    height: 360px;
     border-width: 1;
     border-radius: 0px;
     border-style: solid;
@@ -239,7 +248,7 @@ Home: CSS for main page
     border-style: solid;
     border-color: 	#D3D3D3;
     background-color: white;
-    top: -320px;
+    top: -335px;
     left: 495px;
     text-align: center;
 }
@@ -254,14 +263,15 @@ Home: CSS for main page
     border-style: solid;
     border-color: 	#D3D3D3;
     background-color: white;
-    top: -400px;
+    top: -430px;
     left: 890px;
     text-align: center;
 }
 
 .box-low a{
     text-align: center;
-    color: black;
+    font-weight: bold;
+    color: #8C756A;
     font-size: 25px;
 }
 
@@ -271,9 +281,6 @@ Home: CSS for main page
     color: black;
     font-family: 'Antic Slab', Georgia, "Times New Roman", Times, serif;
 
-}
-.home-page-title{
-    color: red;
 }
 
 .body{
@@ -289,12 +296,16 @@ Home: CSS for main page
 }
 
 .footer {
-    position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-    color: gray;
+    color: #8C756A;
     text-align: center;
+    background-color: white;
+    font-family: 'Antic Slab';
+    font-size: 40px;
+    padding:20px;
+
 }
 
 
@@ -348,6 +359,9 @@ button{
     display: flex;
     justify-content: center;
     padding: 1.00em 0;
+}
+
+#zoom-button{
     background-color: white;
 }
 
@@ -381,12 +395,9 @@ button:hover{
 }
 
 /* Lawyer Chat */
-
 #lawyer-chat-body {
     background-image: url("https://nonagon.style/wp-content/uploads/2018/01/NONAGON-style-n9s-indoor-house-plant-green-garden-white-eco.jpg");
     background-repeat: no-repeat;
-    padding: 20px;
-    border-radius: 8px;
     opacity: 0.9;
     color: #ffffff;
   }
@@ -397,7 +408,6 @@ button:hover{
     font-family: 'Antic Slab', Arial, sans-serif;
     margin: 10px auto;
     list-style: none;
-    padding-right: 10px auto;
     padding-top: 10px;
     line-height: 1.6;
     overflow-x:hidden;
@@ -405,10 +415,10 @@ button:hover{
     height:430px;
   }
   
-  li {
+   i {
     padding-right: 20px auto;
     padding-left: -60px auto;
-  }
+  } 
   
   li:nth-child(odd){
     color: #A4A4A4;
@@ -424,9 +434,11 @@ button:hover{
   
   #lily-smith {
     margin: 0px auto;
+    font-size: 40px;
     text-align: center;
+    padding: 20px;
     color: black;
-    font-family: "Antic Slab", Monaco, monospace;
+    font-family: "Antic Slab";
   }
   
   #lawyer-form {
@@ -438,6 +450,7 @@ button:hover{
   .message {
     opacity: 1;
     width: 85%;
+    height: 35px;
     font-family: 'Antic Slab', Arial;
   }
   
@@ -450,17 +463,19 @@ button:hover{
       background-color: black;
       border: white;
       color: white;
-      padding: 5px;
+      padding: 0px;
       display: inline-block;
       font-size: 16px;
       font-family: 'Antic Slab', Arial;
       border-radius: 5px;
+      width: 7%;
   }
   
 
 /*
 Messages
 */
+
 #mes-container{
   display: flex;
   flex-wrap: wrap;
@@ -499,7 +514,7 @@ Messages
     padding: 10px;
 	background-color: #eee;
     border: 1px solid #dadada;
-    height: 80px;
+    height: 40px;
 }
 #author-input{
     margin-bottom: 20px;
@@ -550,7 +565,7 @@ Messages
     right:00px;
     left:0px;
     bottom:0px;
-    padding: 30px;
+    padding: 20px;
     padding-right: 80px;
     margin-bottom: 0px;
 }
@@ -559,6 +574,10 @@ Messages
     justify-content: center;
 }
 #post{
-   
     float: right
+}
+
+
+#lawyers-body{
+    background-image: url("https://fthmb.tqn.com/kVpo4zFn-IRel7_g-hB3vXseD0A=/puresaltinteriors.-cb503015f1954be8ab6f750cda87a326.jpg");
 }
