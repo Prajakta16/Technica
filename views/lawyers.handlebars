@@ -1,20 +1,34 @@
-<h1> Lawyers </h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="search-bar">
-    <input type="text" id="search-input" placeholder="Search Lawyer by name...">
-    <button type="button" class="btn-primary" id="search-button" onclick="searchLawyer()"> Search </button>
-    <p id="demo"></p>
-</div>
-
- <div class='content'>
-    {{#each LData}}
-{{> lawyer}}
-{{/each}}
- </div>
+  <head>
+      <meta charset="UTF-8">
+      <title > Lawyers </title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"/>
+      <link href="../public/styles.css" rel="stylesheet"/>
+  </head>
 
 
- <script>
-       function searchLawyer(event) {
-         document.getElementById("demo").innerHTML = "We got you some searches for lawyers who can help you";
-       }
- </script>
+<body id = "lawyers-body">
+  <h1 class = "profile-login"> Lawyers &amp; Law Students </h1>
+
+  <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search Lawyer by name...">
+      <button type="button" class="btn-primary" id="search-button" onclick="searchLawyer()"> Search </button>
+      <p id="demo"></p>
+  </div>
+
+  <div class='content'>
+      {{#each LData}}
+  {{> lawyer}}
+  {{/each}}
+  </div>
+  <script>
+        function searchLawyer(event) {
+          document.getElementById("demo").innerHTML = "We got you some searches for lawyers who can help you:";
+        }
+  </script>
+
+ </body>
+</html>
